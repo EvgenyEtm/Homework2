@@ -160,4 +160,71 @@
     font-weight: bold;
 }
 
+
+
+.gamePlay {
+    width: 1440px;
+    height: 800px;
+    flex-shrink: 0;
+    background-image: url(Img/background_2.jpg);
+    &__box {
+        display: flex;
+        padding-top: 235px;
+
+    }
+    &__textarea {
+        width: 584px;
+        height: 236px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        padding-right: 135px;
+    }
+    &__textareaOne {
+        width: 584px;
+        height: 236px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        padding-left: 135px;
+    }
+    &__button {
+        width: 234.063px;
+        height: 48.603px;
+        flex-shrink: 0;
+        border-radius: 30px;
+        background: #9C0332;
+        &_text {
+            color: #FFF;
+            font-size: 18px;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+    &__textbold {
+        color: #FFF;
+        font-size: 48px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    &__textlite {
+        color: #FFF;
+        font-size: 18px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 32px;
+    }
+}
+
+.svg__mobile {
+    display: none;
+}
+
+
+
 @import 'mobile.scss'

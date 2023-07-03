@@ -153,6 +153,68 @@
   font-weight: bold;
 }
 
+.gamePlay {
+  width: 1440px;
+  height: 800px;
+  flex-shrink: 0;
+  background-image: url(Img/background_2.jpg);
+}
+.gamePlay__box {
+  display: flex;
+  padding-top: 235px;
+}
+.gamePlay__textarea {
+  width: 584px;
+  height: 236px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-right: 135px;
+}
+.gamePlay__textareaOne {
+  width: 584px;
+  height: 236px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-left: 135px;
+}
+.gamePlay__button {
+  width: 234.063px;
+  height: 48.603px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #9C0332;
+}
+.gamePlay__button_text {
+  color: #FFF;
+  font-size: 18px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.gamePlay__textbold {
+  color: #FFF;
+  font-size: 48px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.gamePlay__textlite {
+  color: #FFF;
+  font-size: 18px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+.svg__mobile {
+  display: none;
+}
+
 @media (max-width: 735px) {
   .top {
     width: 375px;
@@ -229,5 +291,67 @@
     width: 343px;
     height: 300px;
     flex-shrink: 0;
+  }
+  .svg__desc {
+    display: none;
+  }
+  .svg__mobile {
+    display: flex;
+    justify-content: center;
+    padding-top: 64px;
+  }
+  .gamePlay {
+    width: 375px;
+    height: 653.61px;
+  }
+  .gamePlay__box {
+    flex-direction: column;
+    padding-top: 51px;
+  }
+  .gamePlay__textarea {
+    width: 375px;
+    height: auto;
+    display: flex;
+    gap: 32px;
+    padding-right: 0px;
+    flex-direction: column;
+    align-items: center;
+    width: none;
+    height: none;
+  }
+  .gamePlay__textareaOne {
+    width: 375px;
+    height: auto;
+    display: flex;
+    gap: 32px;
+    padding-right: 0px;
+    flex-direction: column;
+    align-items: center;
+    width: none;
+    height: none;
+    padding-left: 0px;
+  }
+  .gamePlay__textlite {
+    display: flex;
+    width: 343px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+  }
+  .gamePlay__textbold {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
   }
 }/*# sourceMappingURL=style.css.map */
