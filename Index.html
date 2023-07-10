@@ -14,17 +14,17 @@
     <Header class="header">
         <H1 class="header__text">Добро пожаловать <br/>на мой сайт !</H1>
         <p class="header__text_lite"><span>Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <span class="bold">поехали</span> и <span class="bold">приcтупай</span></span></p>
-        <button class="header__button"><a href="#" class="header__button_text">Поехали!</a></button>с
+        <button class="header__button"><a href="#gameCenter" class="header__button_text">Поехали!</a></button>с
     </Header>
 </div>
-<div class="game center">
+<div class="game center" id="gameCenter">
     <div class="game__box">
-        <div class="game__box_transition game__box_1"><a href="#" class="game__item_1">Игра 1</a></div>
-        <div class="game__box_transition game__box_2"><a href="#" class="game__item_2">Игра 2</a></div>
+        <div class="game__box_transition game__box_1"><a href="#game1" class="game__item_1">Игра 1</a></div>
+        <div class="game__box_transition game__box_2"><a href="#game2" class="game__item_2">Игра 2</a></div>
         <div class="game__box_transition game__box_3"><a href="#" class="game__item_3">Игра 3</a></div>
     </div>
 </div>
-<div class="gamePlay center">
+<div class="gamePlay center" id="game1">
 <div class="gamePlay__box">
     <div class="gamePlay__textarea">
         <h1 class="gamePlay__textbold">
@@ -33,7 +33,7 @@
         <p class="gamePlay__textlite">
             Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится
         </p>
-        <button class="gamePlay__button"><a href="#" class="gamePlay__button_text">Играть!</a></button>с
+        <button class="gamePlay__button" onclick="gameOne()"><a href="#" class="gamePlay__button_text">Играть!</a></button>с
     </div>
     <div class="svg__desc">
         <svg width="485" height="334" viewBox="0 0 485 334" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -211,7 +211,7 @@
 
 </div>
 </div>
-<div class="gamePlay center">
+<div class="gamePlay center" id="game2">
     <div class="gamePlay__box">
         <div class="svg__desc">
             <svg width="481" height="322" viewBox="0 0 481 322" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -432,7 +432,25 @@
 
     </div>
 </div>
+<div class="gamePlay__three center">
+    <div class="gamePlay__textareaTwo">
+        <div class="gamePlay__textbold">
+            Игра в загадки
+        </div>
+        <div class="gamePlay__textlite_three">
+            Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите не правильный ответ, то компьютер даст вам подсказку. У вас будет три попытки и две подсказки.
+        </div>
+        <button class="gamePlay__button"><a href="#" class="gamePlay__button_text">Играть!</a></button>
+    </div>
 
 
+</div>
+<footer class="footer center">
+<p class="footer__text">
+    Все права защищены
+</p>
+</footer>
+
+<script src="scriptGame.js"></script>
 </body>
 </html>

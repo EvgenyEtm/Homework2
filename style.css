@@ -159,6 +159,15 @@
   flex-shrink: 0;
   background-image: url(Img/background_2.jpg);
 }
+.gamePlay__three {
+  width: 1440px;
+  height: 800px;
+  flex-shrink: 0;
+  background-image: url(Img/game3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 .gamePlay__box {
   display: flex;
   padding-top: 235px;
@@ -178,6 +187,14 @@
   flex-direction: column;
   gap: 32px;
   padding-left: 135px;
+}
+.gamePlay__textareaTwo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 276px;
+  gap: 32px;
 }
 .gamePlay__button {
   width: 234.063px;
@@ -210,9 +227,40 @@
   font-weight: 300;
   line-height: 32px;
 }
+.gamePlay__textlite_three {
+  display: flex;
+  width: 1200px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+}
 
 .svg__mobile {
   display: none;
+}
+
+.footer {
+  width: 1440px;
+  height: 80px;
+  flex-shrink: 0;
+  background: #000915;
+}
+.footer__text {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  padding-top: 32px;
 }
 
 @media (max-width: 735px) {
@@ -304,6 +352,12 @@
     width: 375px;
     height: 653.61px;
   }
+  .gamePlay__three {
+    background-image: url(Img/game3mobi.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
   .gamePlay__box {
     flex-direction: column;
     padding-top: 51px;
@@ -345,6 +399,20 @@
     font-weight: 300;
     line-height: 22px;
   }
+  .gamePlay__textlite_three {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+    display: flex;
+    width: 343px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+  }
   .gamePlay__textbold {
     color: #FFF;
     text-align: center;
@@ -352,6 +420,19 @@
     font-family: Montserrat;
     font-style: normal;
     font-weight: 700;
+    line-height: normal;
+  }
+  .footer {
+    width: 375px;
+    height: 80px;
+    flex-shrink: 0;
+  }
+  .footer__text {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
     line-height: normal;
   }
 }/*# sourceMappingURL=style.css.map */
