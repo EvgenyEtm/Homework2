@@ -4,7 +4,7 @@
 }
 
 .top {
-    width: 1440px;
+    // width: 1440px;
     height: 1024px;
     flex-shrink: 0;
     background-image: url(Img/TopBackground.jpg);
@@ -68,7 +68,7 @@
 }
 
 .game {
-    width: 1440px;
+    // width: 1440px;
     height: 556px;
     flex-shrink: 0;
     background: #000915;
@@ -163,12 +163,12 @@
 
 
 .gamePlay {
-    width: 1440px;
+    // width: 1440px;
     height: 800px;
     flex-shrink: 0;
     background-image: url(Img/background_2.jpg);
     &__three {
-        width: 1440px;
+        // width: 1440px;
         height: 800px;
         flex-shrink: 0;
         background-image: url(Img/game3.jpg);
@@ -237,7 +237,7 @@
         line-height: 32px;
         &_three {
             display: flex;
-            width: 1200px;
+            // width: 1200px;
             flex-direction: column;
             justify-content: center;
             flex-shrink: 0;
@@ -257,7 +257,7 @@
 }
 
 .footer {
-    width: 1440px;
+    // width: 1440px;
     height: 80px;
     flex-shrink: 0;
     background: #000915;
