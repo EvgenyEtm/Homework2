@@ -96,6 +96,12 @@
 .gamePlay {
     width: 375px;
     height: 653.61px;
+    &__three {
+        background-image: url(Img/game3mobi.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
     &__box {
         flex-direction: column;
         padding-top: 51px;
@@ -136,6 +142,20 @@
         font-style: normal;
         font-weight: 300;
         line-height: 22px;
+        &_three {
+            color: #FFF;
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 22px;
+            display: flex;
+            width: 343px;
+            flex-direction: column;
+            justify-content: center;
+            flex-shrink: 0;
+        }
     }
     &__textbold {
         color: #FFF;
@@ -147,6 +167,20 @@
         line-height: normal;
     }
 }
+.footer {
+    width: 375px;
+    height: 80px;
+    flex-shrink: 0;
+    &__text {
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
 }
 
 
